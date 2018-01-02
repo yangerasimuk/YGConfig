@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1317BF021F0FA9110039A224 /* YGConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D088EE1ECB10D900ACF635 /* YGConfig.m */; };
+		1317BF061F0FA9110039A224 /* YGConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D088EC1ECB10D900ACF635 /* YGConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1356D4A71FFC35310031C683 /* libYGFileSystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1356D4A61FFC35310031C683 /* libYGFileSystem.a */; };
+		1356D4A91FFC35E10031C683 /* libYGConfig.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13D088E91ECB10D900ACF635 /* libYGConfig.a */; };
+		1356D4AB1FFC35FA0031C683 /* YGConfig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13D088EC1ECB10D900ACF635 /* YGConfig.h */; };
+		1356D4AC1FFC35FA0031C683 /* YYGConfigError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13E362FA1F176D8500214021 /* YYGConfigError.h */; };
+		1356D4AD1FFC35FA0031C683 /* YYGConfigDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13E362FE1F176EDE00214021 /* YYGConfigDefine.h */; };
+		13CCF8261F16834D00EAB928 /* libYGFileSystemIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CCF8251F16834D00EAB928 /* libYGFileSystemIOS.a */; };
+		13D088ED1ECB10D900ACF635 /* YGConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D088EC1ECB10D900ACF635 /* YGConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13D088EF1ECB10D900ACF635 /* YGConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D088EE1ECB10D900ACF635 /* YGConfig.m */; };
+		13E362FC1F176D8500214021 /* YYGConfigError.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E362FA1F176D8500214021 /* YYGConfigError.h */; };
+		13E362FD1F176D8500214021 /* YYGConfigError.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E362FB1F176D8500214021 /* YYGConfigError.m */; };
+		13E363001F176EDE00214021 /* YYGConfigDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E362FE1F176EDE00214021 /* YYGConfigDefine.h */; };
+		13E363011F176EDE00214021 /* YYGConfigDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E362FF1F176EDE00214021 /* YYGConfigDefine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1356D4A81FFC35850031C683 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(USER_LIBRARY_DIR)/YGConfig";
+			dstSubfolderSpec = 0;
+			files = (
+				1356D4A91FFC35E10031C683 /* libYGConfig.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1356D4AA1FFC35E80031C683 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(USER_LIBRARY_DIR)/YGConfig/include";
+			dstSubfolderSpec = 0;
+			files = (
+				1356D4AB1FFC35FA0031C683 /* YGConfig.h in CopyFiles */,
+				1356D4AC1FFC35FA0031C683 /* YYGConfigError.h in CopyFiles */,
+				1356D4AD1FFC35FA0031C683 /* YYGConfigDefine.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1317BF0B1F0FA9110039A224 /* libYGConfigIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYGConfigIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1356D4A61FFC35310031C683 /* libYGFileSystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYGFileSystem.a; path = ../../../../../Library/YGFileSystem/libYGFileSystem.a; sourceTree = "<group>"; };
+		13CCF8251F16834D00EAB928 /* libYGFileSystemIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYGFileSystemIOS.a; path = "../../../../../Library/Developer/Xcode/DerivedData/YGFileSystem-ayxaewihnqzpzjghxsyhrzwaslud/Build/Products/Release-iphoneos/libYGFileSystemIOS.a"; sourceTree = "<group>"; };
+		13D088E91ECB10D900ACF635 /* libYGConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYGConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D088EC1ECB10D900ACF635 /* YGConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGConfig.h; sourceTree = "<group>"; };
+		13D088EE1ECB10D900ACF635 /* YGConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGConfig.m; sourceTree = "<group>"; };
+		13E362FA1F176D8500214021 /* YYGConfigError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGConfigError.h; sourceTree = "<group>"; };
+		13E362FB1F176D8500214021 /* YYGConfigError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGConfigError.m; sourceTree = "<group>"; };
+		13E362FE1F176EDE00214021 /* YYGConfigDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYGConfigDefine.h; sourceTree = "<group>"; };
+		13E362FF1F176EDE00214021 /* YYGConfigDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYGConfigDefine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1317BF031F0FA9110039A224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CCF8261F16834D00EAB928 /* libYGFileSystemIOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D088E61ECB10D900ACF635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1356D4A71FFC35310031C683 /* libYGFileSystem.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D088E01ECB10D900ACF635 = {
+			isa = PBXGroup;
+			children = (
+				13D088EB1ECB10D900ACF635 /* YGConfig */,
+				13D088EA1ECB10D900ACF635 /* Products */,
+				13D088F51ECB150800ACF635 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13D088EA1ECB10D900ACF635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13D088E91ECB10D900ACF635 /* libYGConfig.a */,
+				1317BF0B1F0FA9110039A224 /* libYGConfigIOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13D088EB1ECB10D900ACF635 /* YGConfig */ = {
+			isa = PBXGroup;
+			children = (
+				13D088EC1ECB10D900ACF635 /* YGConfig.h */,
+				13D088EE1ECB10D900ACF635 /* YGConfig.m */,
+				13E362FA1F176D8500214021 /* YYGConfigError.h */,
+				13E362FB1F176D8500214021 /* YYGConfigError.m */,
+				13E362FE1F176EDE00214021 /* YYGConfigDefine.h */,
+				13E362FF1F176EDE00214021 /* YYGConfigDefine.m */,
+			);
+			path = YGConfig;
+			sourceTree = "<group>";
+		};
+		13D088F51ECB150800ACF635 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1356D4A61FFC35310031C683 /* libYGFileSystem.a */,
+				13CCF8251F16834D00EAB928 /* libYGFileSystemIOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1317BF051F0FA9110039A224 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1317BF061F0FA9110039A224 /* YGConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D088E71ECB10D900ACF635 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D088ED1ECB10D900ACF635 /* YGConfig.h in Headers */,
+				13E363001F176EDE00214021 /* YYGConfigDefine.h in Headers */,
+				13E362FC1F176D8500214021 /* YYGConfigError.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1317BF001F0FA9110039A224 /* YGConfig iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1317BF081F0FA9110039A224 /* Build configuration list for PBXNativeTarget "YGConfig iOS" */;
+			buildPhases = (
+				1317BF011F0FA9110039A224 /* Sources */,
+				1317BF031F0FA9110039A224 /* Frameworks */,
+				1317BF051F0FA9110039A224 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YGConfig iOS";
+			productName = YGConfig;
+			productReference = 1317BF0B1F0FA9110039A224 /* libYGConfigIOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		13D088E81ECB10D900ACF635 /* YGConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D088F21ECB10D900ACF635 /* Build configuration list for PBXNativeTarget "YGConfig" */;
+			buildPhases = (
+				13D088E51ECB10D900ACF635 /* Sources */,
+				13D088E61ECB10D900ACF635 /* Frameworks */,
+				13D088E71ECB10D900ACF635 /* Headers */,
+				1356D4A81FFC35850031C683 /* CopyFiles */,
+				1356D4AA1FFC35E80031C683 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YGConfig;
+			productName = YGConfig;
+			productReference = 13D088E91ECB10D900ACF635 /* libYGConfig.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13D088E11ECB10D900ACF635 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Yan Gerasimuk";
+				TargetAttributes = {
+					1317BF001F0FA9110039A224 = {
+						DevelopmentTeam = EF64T58JW4;
+					};
+					13D088E81ECB10D900ACF635 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = EF64T58JW4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 13D088E41ECB10D900ACF635 /* Build configuration list for PBXProject "YGConfig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13D088E01ECB10D900ACF635;
+			productRefGroup = 13D088EA1ECB10D900ACF635 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13D088E81ECB10D900ACF635 /* YGConfig */,
+				1317BF001F0FA9110039A224 /* YGConfig iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1317BF011F0FA9110039A224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1317BF021F0FA9110039A224 /* YGConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13D088E51ECB10D900ACF635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E363011F176EDE00214021 /* YYGConfigDefine.m in Sources */,
+				13E362FD1F176D8500214021 /* YYGConfigError.m in Sources */,
+				13D088EF1ECB10D900ACF635 /* YGConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1317BF091F0FA9110039A224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EF64T58JW4;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "/Users/yanikng/Library/Developer/Xcode/DerivedData/YGFileSystem-dovcmsxgnkazydfacanitdbfsoqz/Build/Products/Release-iphonesimulator/include/YGFileSystem";
+				LIBRARY_SEARCH_PATHS = "/Users/yanikng/Library/Developer/Xcode/DerivedData/YGFileSystem-dovcmsxgnkazydfacanitdbfsoqz/Build/Products/Release-iphonesimulator";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = YGConfigIOS;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "/Users/yanikng/Library/Developer/Xcode/DerivedData/YGFileSystem-dovcmsxgnkazydfacanitdbfsoqz/Build/Products/Release-iphonesimulator/include/YGFileSystem";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		1317BF0A1F0FA9110039A224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EF64T58JW4;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "/Users/yanikng/Library/Developer/Xcode/DerivedData/YGFileSystem-dovcmsxgnkazydfacanitdbfsoqz/Build/Products/Release-iphonesimulator/include/YGFileSystem";
+				LIBRARY_SEARCH_PATHS = "/Users/yanikng/Library/Developer/Xcode/DerivedData/YGFileSystem-dovcmsxgnkazydfacanitdbfsoqz/Build/Products/Release-iphonesimulator";
+				PRODUCT_NAME = YGConfigIOS;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "/Users/yanikng/Library/Developer/Xcode/DerivedData/YGFileSystem-dovcmsxgnkazydfacanitdbfsoqz/Build/Products/Release-iphonesimulator/include/YGFileSystem";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+		13D088F01ECB10D900ACF635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/yanikng/Library/YGFileSystem/include;
+				LIBRARY_SEARCH_PATHS = /Users/yanikng/Library/YGFileSystem;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		13D088F11ECB10D900ACF635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/yanikng/Library/YGFileSystem/include;
+				LIBRARY_SEARCH_PATHS = /Users/yanikng/Library/YGFileSystem;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		13D088F31ECB10D900ACF635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EF64T58JW4;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /Users/yanikng/Library/YGFileSystem/include;
+				LIBRARY_SEARCH_PATHS = (
+					/Users/yanikng/Library/YGFileSystem,
+					"$(USER_LIBRARY_DIR)/YGFileSystem",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		13D088F41ECB10D900ACF635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = EF64T58JW4;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /Users/yanikng/Library/YGFileSystem/include;
+				LIBRARY_SEARCH_PATHS = (
+					/Users/yanikng/Library/YGFileSystem,
+					"$(USER_LIBRARY_DIR)/YGFileSystem",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1317BF081F0FA9110039A224 /* Build configuration list for PBXNativeTarget "YGConfig iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1317BF091F0FA9110039A224 /* Debug */,
+				1317BF0A1F0FA9110039A224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D088E41ECB10D900ACF635 /* Build configuration list for PBXProject "YGConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D088F01ECB10D900ACF635 /* Debug */,
+				13D088F11ECB10D900ACF635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D088F21ECB10D900ACF635 /* Build configuration list for PBXNativeTarget "YGConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D088F31ECB10D900ACF635 /* Debug */,
+				13D088F41ECB10D900ACF635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13D088E11ECB10D900ACF635 /* Project object */;
+}
