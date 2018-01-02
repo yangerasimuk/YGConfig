@@ -368,11 +368,8 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = EF64T58JW4;
 				EXECUTABLE_PREFIX = lib;
-				HEADER_SEARCH_PATHS = /Users/yanikng/Library/YGFileSystem/include;
-				LIBRARY_SEARCH_PATHS = (
-					/Users/yanikng/Library/YGFileSystem,
-					"$(USER_LIBRARY_DIR)/YGFileSystem",
-				);
+				HEADER_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/YGFileSystem/include";
+				LIBRARY_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/YGFileSystem";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -384,11 +381,8 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = EF64T58JW4;
 				EXECUTABLE_PREFIX = lib;
-				HEADER_SEARCH_PATHS = /Users/yanikng/Library/YGFileSystem/include;
-				LIBRARY_SEARCH_PATHS = (
-					/Users/yanikng/Library/YGFileSystem,
-					"$(USER_LIBRARY_DIR)/YGFileSystem",
-				);
+				HEADER_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/YGFileSystem/include";
+				LIBRARY_SEARCH_PATHS = "$(USER_LIBRARY_DIR)/YGFileSystem";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
