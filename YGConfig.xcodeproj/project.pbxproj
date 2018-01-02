@@ -9,12 +9,10 @@
 /* Begin PBXBuildFile section */
 		1317BF021F0FA9110039A224 /* YGConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D088EE1ECB10D900ACF635 /* YGConfig.m */; };
 		1317BF061F0FA9110039A224 /* YGConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D088EC1ECB10D900ACF635 /* YGConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1356D4A71FFC35310031C683 /* libYGFileSystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1356D4A61FFC35310031C683 /* libYGFileSystem.a */; };
 		1356D4A91FFC35E10031C683 /* libYGConfig.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13D088E91ECB10D900ACF635 /* libYGConfig.a */; };
 		1356D4AB1FFC35FA0031C683 /* YGConfig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13D088EC1ECB10D900ACF635 /* YGConfig.h */; };
 		1356D4AC1FFC35FA0031C683 /* YYGConfigError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13E362FA1F176D8500214021 /* YYGConfigError.h */; };
 		1356D4AD1FFC35FA0031C683 /* YYGConfigDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 13E362FE1F176EDE00214021 /* YYGConfigDefine.h */; };
-		13CCF8261F16834D00EAB928 /* libYGFileSystemIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CCF8251F16834D00EAB928 /* libYGFileSystemIOS.a */; };
 		13D088ED1ECB10D900ACF635 /* YGConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D088EC1ECB10D900ACF635 /* YGConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13D088EF1ECB10D900ACF635 /* YGConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D088EE1ECB10D900ACF635 /* YGConfig.m */; };
 		13E362FC1F176D8500214021 /* YYGConfigError.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E362FA1F176D8500214021 /* YYGConfigError.h */; };
@@ -50,8 +48,6 @@
 
 /* Begin PBXFileReference section */
 		1317BF0B1F0FA9110039A224 /* libYGConfigIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYGConfigIOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1356D4A61FFC35310031C683 /* libYGFileSystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYGFileSystem.a; path = ../../../../../Library/YGFileSystem/libYGFileSystem.a; sourceTree = "<group>"; };
-		13CCF8251F16834D00EAB928 /* libYGFileSystemIOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYGFileSystemIOS.a; path = "../../../../../Library/Developer/Xcode/DerivedData/YGFileSystem-ayxaewihnqzpzjghxsyhrzwaslud/Build/Products/Release-iphoneos/libYGFileSystemIOS.a"; sourceTree = "<group>"; };
 		13D088E91ECB10D900ACF635 /* libYGConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYGConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D088EC1ECB10D900ACF635 /* YGConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGConfig.h; sourceTree = "<group>"; };
 		13D088EE1ECB10D900ACF635 /* YGConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGConfig.m; sourceTree = "<group>"; };
@@ -66,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13CCF8261F16834D00EAB928 /* libYGFileSystemIOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1356D4A71FFC35310031C683 /* libYGFileSystem.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +80,6 @@
 			children = (
 				13D088EB1ECB10D900ACF635 /* YGConfig */,
 				13D088EA1ECB10D900ACF635 /* Products */,
-				13D088F51ECB150800ACF635 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,15 +103,6 @@
 				13E362FF1F176EDE00214021 /* YYGConfigDefine.m */,
 			);
 			path = YGConfig;
-			sourceTree = "<group>";
-		};
-		13D088F51ECB150800ACF635 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1356D4A61FFC35310031C683 /* libYGFileSystem.a */,
-				13CCF8251F16834D00EAB928 /* libYGFileSystemIOS.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
